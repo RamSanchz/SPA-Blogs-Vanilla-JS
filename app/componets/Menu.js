@@ -1,3 +1,5 @@
+/** @format */
+
 export function Menu() {
   const $menu = document.createElement("nav");
   $menu.classList.add("menu");
@@ -8,7 +10,7 @@ export function Menu() {
   <span>-</span>
   <a href="#/contacto">Contacto</a>
   <span>-</span>
-  <a href="https://aprendejavascript.org" target="_blank" rel="noopener">Aprende JS</a>
+  <a href="#" target="_blank" rel="noopener">Cambia de Blog</a>
   `;
   return $menu;
 }
